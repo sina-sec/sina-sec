@@ -1,0 +1,81 @@
+<html>
+</head>
+<meta charset="utf-8">
+<title>
+    صفحه ورود و لاگین
+</title>
+
+<head>
+
+<body>
+    <!---برای ارسال داده ها به سرور از این تگ استفاده می شود -->
+    <!---برای برگرداندن دیدتا از سرور اکر به همین صحفه خالی باشد اگر به پیج دیگر ادرس اضافه شود -->
+    <!--تگ for  برای ارتباط  لیبل  با  اینپوت می باشد -->
+    <form action="" method="POST">
+        <!----ایجاد تسک باکس -->
+        <label for="username"> UserName
+            <input type="text" name="username" placeholder="username">
+        </label>
+        <br>
+        <label for="password"> Password &nbsp;
+            <input type="password" name="pass" placeholder="Password">
+        </label>
+        <br>
+        <input type="submit" name="ersal" value=" ورود اساتید">
+        <input type="submit" name="ersal" value=" ورود دانشجویان">
+        <br>
+
+        <form action="" method="GET">
+            <br>
+            <!----ایجاد تسک باکس -->
+            <label for="username"> UserName
+                <input type="text" name="username" placeholder="username">
+            </label>
+            <br>
+            <label for="password"> Password &nbsp;
+                <input type="password" name="pass" placeholder="Password">
+            </label>
+            </form>
+            <!--دکمه های رادیویی اگر دارای یک دسته یا یک نام باشندفقط قابلیت انتخاب یک دکمه م یباش د-->
+            <input type="radio" name="V1" value="Ostad"> Ostad
+            <input type="radio" name="V1" value=" Daneshjoo"> Daneshjoo
+            <br>
+            <input type="radio" name="V2" value="m"> Male
+            <input type="radio" name="V2" value="z"> Fmale
+            <br>
+            <input type="checkbox" name="check" checked> مرا به خاطر بسپار
+            <br>
+        </form>
+        <form action="" method="GET">
+            <br>
+            <label for="username"> UserName
+                <input type="text" name="username" placeholder="username">
+            </label>
+            <br>
+            <label for="password"> Password &nbsp;
+                <input type="password" name="pass" placeholder="Password">
+            </label>
+            <br>
+            <select name="v2">
+                <optgroup label="گروه">
+                    <option value="ostad">استاد</option>
+                    <option value="Daneshjoo">دانشجو</option>
+                </optgroup>
+                <optgroup label="جنسیت">
+                    <option value="z">زن</option>
+                    <option value="m">مرد</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit" name="ersal" value=" ورود ">
+            <input type="submit" name="ersal" value=" خروج ">
+        </form>
+
+
+
+
+
+
+</body>
+
+</html>
