@@ -35,43 +35,44 @@
             <label for="password"> Password &nbsp;
                 <input type="password" name="pass" placeholder="Password">
             </label>
-            </form>
-            <!--دکمه های رادیویی اگر دارای یک دسته یا یک نام باشندفقط قابلیت انتخاب یک دکمه م یباش د-->
-            <input type="radio" name="V1" value="Ostad"> Ostad
-            <input type="radio" name="V1" value=" Daneshjoo"> Daneshjoo
-            <br>
-            <input type="radio" name="V2" value="m"> Male
-            <input type="radio" name="V2" value="z"> Fmale
-            <br>
-            <input type="checkbox" name="check" checked> مرا به خاطر بسپار
-            <br>
         </form>
-        <form action="" method="GET">
+        <!--دکمه های رادیویی اگر دارای یک دسته یا یک نام باشندفقط قابلیت انتخاب یک دکمه م یباش د-->
+        <input type="radio" name="V1" value="Ostad"> Ostad
+        <input type="radio" name="V1" value=" Daneshjoo"> Daneshjoo
+        <br>
+        <input type="radio" name="V2" value="m"> Male
+        <input type="radio" name="V2" value="z"> Fmale
+        <br>
+        <input type="checkbox" name="check" checked> مرا به خاطر بسپار
+        <br>
+    </form>
+    <form action="" method="GET">
+        <br>
+        <label for="username"> UserName
+            <input type="text" name="username" placeholder="username">
+        </label>
+        <br>
+        <label for="password"> Password &nbsp;
+            <input type="password" name="pass" placeholder="Password">
+        </label>
+        <br>
+        <select name="v2">
+            <optgroup label="گروه">
+                <option value="ostad">استاد</option>
+                <option value="Daneshjoo">دانشجو</option>
+                <option value="modirgroup">مدیرگروه</option>
+            </optgroup>
+            <optgroup label="جنسیت">
+                <option value="z">زن</option>
+                <option value="m">مرد</option>
+            </optgroup>
             <br>
-            <label for="username"> UserName
-                <input type="text" name="username" placeholder="username">
-            </label>
-            <br>
-            <label for="password"> Password &nbsp;
-                <input type="password" name="pass" placeholder="Password">
-            </label>
-            <br>
-            <select name="v2">
-                <optgroup label="گروه">
-                    <option value="ostad">استاد</option>
-                    <option value="Daneshjoo">دانشجو</option>
-                    <option value="modirgroup">مدیرگروه</option>
-                </optgroup>
-                <optgroup label="جنسیت">
-                    <option value="z">زن</option>
-                    <option value="m">مرد</option>
-                </optgroup>
-                <br>
-            </select>
-            <br>
-            <input type="submit" name="ersal" value=" ورود ">
-            <input type="submit" name="sabt" value=" ثبت ">
-        </form>
+        </select>
+        <!--خط آبی -->
+        <hr color="blue">
+        <input type="submit" name="ersal" value=" ورود ">
+        <input type="submit" name="sabt" value=" ثبت ">
+    </form>
 
 
 
